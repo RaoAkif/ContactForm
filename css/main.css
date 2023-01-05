@@ -364,8 +364,10 @@ form {
   padding-bottom: 0;
 }
 
-#name, #email-address, #message {
-  border-bottom: 1px solid #DBD8D7;
+#name,
+#email-address,
+#message {
+  border-bottom: 1px solid #dbd8d7;
 }
 
 #email-text {
@@ -402,7 +404,7 @@ form {
 #footer {
   padding: 10px 0;
   margin: 10px 0;
-  border-top: 1px solid #DFE1E6;
+  border-top: 1px solid #dfe1e6;
 }
 
 #empty-footer {
@@ -457,15 +459,13 @@ form {
 }
 
 textarea {
-  background-color: #FBF8F7;
+  background-color: #fbf8f7;
 }
 
 @media (min-width: 990px) {
   #contact-message {
-    background-image:
-      url("./images/bg/condes1.svg"),
-      url("./images/bg/condes2.svg"),
-      url("./images/bg/condes3.svg");
+    background-image: url("./images/bg/condes1.svg"),
+      url("./images/bg/condes2.svg"), url("./images/bg/condes3.svg");
     background-repeat: no-repeat;
     background-position: 0 82%, 29% 75%, 100% 82%;
   }
@@ -507,6 +507,3 @@ textarea {
     padding-bottom: 40px;
   }
 }
-
-/* ----- Contact Section ----- End */
-

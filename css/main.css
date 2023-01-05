@@ -325,3 +325,188 @@ li {
 .skills {
   list-style: inside url("../media/svg/circle.svg");
 }
+
+/* ----- Contact Section ----- Start */
+
+#contact {
+  background-color: white;
+}
+
+#contact > h2 {
+  background-color: white;
+  color: black;
+  font-family: "Inter", sans-serif;
+}
+
+#contact-message {
+  background-image: url("./images/icons/illus-contact.svg");
+  background-repeat: no-repeat;
+  background-position: 335px 61%;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 327px;
+  margin: auto;
+  justify-content: center;
+}
+
+.contact > .intro {
+  padding-bottom: 0;
+}
+
+#name, #email-address, #message {
+  border-bottom: 1px solid #DBD8D7;
+}
+
+#email-text {
+  font-size: 20px;
+  color: var(--color-text-emphasis);
+  text-align: center;
+}
+
+#get-in-touch {
+  position: inherit;
+  border: none;
+}
+
+.form-fields {
+  border: 1px solid var(--color-grey-border);
+  box-sizing: border-box;
+  border-radius: 4px;
+  height: 48px;
+  width: 303px;
+  padding: 10px;
+  margin: 12px;
+}
+
+#message {
+  border: 1px solid var(--color-green-border);
+  box-sizing: border-box;
+  border-radius: 4px;
+  height: 114px;
+  width: 654px;
+  padding-top: 12px;
+  font-family: "Roboto", sans-serif;
+}
+
+#footer {
+  padding: 10px 0;
+  margin: 10px 0;
+  border-top: 1px solid #DFE1E6;
+}
+
+#empty-footer {
+  height: 327px;
+}
+
+#indicator_last {
+  margin: auto;
+  display: block;
+  padding-bottom: 5px;
+}
+
+#footer-top {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+}
+
+#footer-text {
+  line-height: 52px;
+  font-size: 40px;
+  text-align: center;
+  width: 90%;
+  margin: auto;
+  padding-top: 60px;
+}
+
+#footer-middile {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  border: none;
+}
+
+#footer-middile > * {
+  justify-content: center;
+  padding: 20px;
+}
+
+#footer-middile > .social-links > li {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#indicator_last-Desktop {
+  display: none;
+}
+
+#email-invalidation-message {
+  color: red;
+  margin: auto;
+}
+
+textarea {
+  background-color: #FBF8F7;
+}
+
+@media (min-width: 990px) {
+  #contact-message {
+    background-image:
+      url("./images/bg/condes1.svg"),
+      url("./images/bg/condes2.svg"),
+      url("./images/bg/condes3.svg");
+    background-repeat: no-repeat;
+    background-position: 0 82%, 29% 75%, 100% 82%;
+  }
+
+  form {
+    width: 654px;
+  }
+
+  #empty-footer {
+    display: none;
+  }
+
+  #footer-text {
+    line-height: 52px;
+    text-align: justify;
+    padding-bottom: 63px;
+    width: 30%;
+    font-size: 30px;
+  }
+
+  #footer-top {
+    padding-top: 160px;
+    width: 85%;
+    display: flex;
+    margin: auto;
+    flex-wrap: nowrap;
+    text-align: justify;
+    justify-content: space-around;
+  }
+
+  #footer-middile {
+    border-top: 1px solid grey;
+    width: 100%;
+    margin-top: 20%;
+  }
+
+  #indicator_last-Desktop {
+    display: block;
+    padding-bottom: 40px;
+  }
+}
+
+/* ----- Contact Section ----- End */
+

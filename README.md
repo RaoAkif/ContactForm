@@ -1,10 +1,10 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 \[contact\_form\] Contact Form](#-contact_form-contact-form)
+- [📖 Contact Form](#-contact_form-contact-form)
   - [🛠 Built With ](#-built-with-)
-    - [Tech Stack ](#tech-stack-)
-  - [🚀 Live Demo ](#-live-demo-)
+    - [Tech Stack](#tech-stack-)
+  - [🚀 Live Demo](#-live-demo-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
@@ -28,9 +28,9 @@
 
 
 <ul>
-  <li><a href="https://reactjs.org/">HTML</a></li>
-  <li><a href="https://expressjs.com/">CSS</a></li>
-  <li><a href="https://www.postgresql.org/">JS</a></li>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JS</li>
 </ul>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -41,7 +41,7 @@
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Not available right now](https://yourdeployedapplicationlink.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -108,21 +108,15 @@ Example command:
 
 <!-- CONTRIBUTING -->
 
-## 🤝 Contributing <a name="contributing"></a>
+## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## Show your support
 
-<!-- SUPPORT -->
-
-## ⭐️ Show your support <a name="support"></a>
-
-> Write a message to encourage readers to support your project
-
-If you like this project...
+Give a ⭐️ if you like this project!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -130,9 +124,9 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -140,6 +134,6 @@ I would like to thank...
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

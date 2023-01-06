@@ -367,7 +367,7 @@ form {
 #name,
 #email-address,
 #message {
-  border-bottom: 1px solid #dbd8d7;
+  border-bottom: 1px solid #505f79;
 }
 
 #email-text {
@@ -464,10 +464,8 @@ textarea {
 
 @media (min-width: 990px) {
   #contact-message {
-    background-image:
-      url("./images/bg/condes1.svg"),
-      url("./images/bg/condes2.svg"),
-      url("./images/bg/condes3.svg");
+    background-image: url("./images/bg/condes1.svg"),
+      url("./images/bg/condes2.svg"), url("./images/bg/condes3.svg");
     background-repeat: no-repeat;
     background-position: 0 82%, 29% 75%, 100% 82%;
   }
@@ -508,4 +506,8 @@ textarea {
     display: block;
     padding-bottom: 40px;
   }
+}
+
+.social-icon-footer {
+  color: #505f79;
 }

@@ -17,11 +17,10 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [contact_form] <a name="about-project">Contact Form</a>
+# 📖 <a name="about-project">Contact Form</a>
 
-> Describe your project in 1 or 2 sentences.
+> A contact form added to the portolio project to get communication with clients.
 
-**[contact_form]** is a basic project to learn how the code review process will go.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -142,7 +141,5 @@ I would like to thank...
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
